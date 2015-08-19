@@ -1,0 +1,6 @@
+#! /bin/sh
+
+createdb pg_notify_demo
+createuser pg_notify_demo
+
+bundle install
