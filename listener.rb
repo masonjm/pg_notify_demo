@@ -1,7 +1,8 @@
 require "bundler"
 require "active_record"
 
-# Disable output buffering. See https://github.com/ddollar/foreman/wiki/Missing-Output
+# Disable output buffering. See:
+# https://github.com/ddollar/foreman/wiki/Missing-Output
 $stdout.sync = true
 
 # Configure database connection
